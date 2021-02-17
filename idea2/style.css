@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 1.8rem;
+    background-color: whitesmoke;
+    margin: 3rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.heading {
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+main {
+    text-align: center;
+}
+
+.post {
+    position: relative;
+    width: 30vw;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 3rem;
+}
+
+.post h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.post h3:nth-child(2) {
+    margin-bottom: 3rem;
+}
+
+.post h4 {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: inside;
+}
+
+.post p {
+    margin-bottom: 2rem;
+}
+
+.bottom-margin--small {
+    margin-bottom: .8rem !important; 
+}
