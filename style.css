@@ -175,10 +175,6 @@ a:hover {
     .post:last-child {
         border-bottom: none;
     }
-
-    .post5 {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 37.5em) {
@@ -203,7 +199,7 @@ a:hover {
         border-bottom: 1px solid;
     }
 
-    .post4 {
+    .post5 {
         border-bottom: none;
     }
 }
