@@ -29,7 +29,7 @@ let main = document.querySelector('main');
 let header = document.querySelector('header');
 
 let posts = document.querySelectorAll('.post');
-let color = ['36, 113, 255', '40, 36, 255', '142, 36, 255', '233, 36, 255', '255, 36, 167', '255, 36, 47']
+let color = ['36, 113, 255', '40, 36, 255', '142, 36, 255', '233, 36, 255', '255, 36, 167', '255, 36, 47', '255, 124, 36', '255, 200, 36']
 
 // set css night/day
 if (!mode)  {
@@ -107,7 +107,7 @@ posts.forEach(ele => {
         });
 
         // change curr post color & background color 
-        if (idx < 6) {
+        if (idx < 7) {
             document.querySelector(`.${currPost}`).style.backgroundColor = `rgba(${color[idx-1]}, 0.05)`;
             document.querySelector(`.time${idx}`).style.color = `rgba(${color[idx-1]}, 0.7)`;
         }
@@ -133,7 +133,7 @@ posts.forEach(ele => {
 
         document.querySelector(`.${currPost}`).style.backgroundColor = 'inherit';
 
-        if (idx < 6) {
+        if (idx < 7) {
             document.querySelector(`.time${idx}`).style.color = '#5e5e5e';
         }
 

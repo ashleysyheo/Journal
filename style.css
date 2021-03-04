@@ -137,7 +137,7 @@ a:hover {
     background: #EE0;
 }
 
-.post4, .post5 {
+.post7, .post8 {
     border-bottom: none;
 }
 
@@ -172,7 +172,7 @@ a:hover {
         border-right: none;
     }
 
-    .post:last-child {
+    .post7, .post8 {
         border-bottom: none;
     }
 }
@@ -199,7 +199,11 @@ a:hover {
         border-bottom: 1px solid;
     }
 
-    .post6 {
+    .post7 {
         border-bottom: none;
+    }
+
+    .post8 {
+        display: none;
     }
 }
