@@ -172,7 +172,7 @@ a:hover {
         border-right: none;
     }
 
-    .post7, .post8 {
+    .post9 {
         border-bottom: none;
     }
 }
@@ -199,11 +199,7 @@ a:hover {
         border-bottom: 1px solid;
     }
 
-    .post7 {
+    .post9 {
         border-bottom: none;
-    }
-
-    .post8 {
-        display: none;
     }
 }
