@@ -172,13 +172,13 @@ a:hover {
         border-right: none;
     }
 
-    .post9, .post10 {
+    .post11 {
         border-bottom: none;
     }
 
-    .post11 {
+    /* .post11 {
         display: none;
-    }
+    } */
 }
 
 @media screen and (max-width: 37.5em) {
@@ -203,7 +203,7 @@ a:hover {
         border-bottom: 1px solid;
     }
 
-    .post10 {
+    .post11 {
         border-bottom: none;
     }
 }
