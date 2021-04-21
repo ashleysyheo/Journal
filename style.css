@@ -137,7 +137,7 @@ a:hover {
     background: #EE0;
 }
 
-.post10, .post11 {
+.post10, .post11, .post12 {
     border-bottom: none;
 }
 
@@ -172,7 +172,7 @@ a:hover {
         border-right: none;
     }
 
-    .post11 {
+    .post11, .post12 {
         border-bottom: none;
     }
 
@@ -203,7 +203,7 @@ a:hover {
         border-bottom: 1px solid;
     }
 
-    .post11 {
+    .post12 {
         border-bottom: none;
     }
 }
